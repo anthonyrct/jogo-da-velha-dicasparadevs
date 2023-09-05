@@ -1,10 +1,10 @@
-const cellElements = document.querySelectorAll("[data-cell]");
-const board = document.querySelector("[data-board]");
+const cellElements = document.querySelectorAll("[data-cell]"); //selecionando todos os elementos da classe:"data-cell, onde os espacos do jogo são "definitos"
+const board = document.querySelector("[data-board]"); //selecionando todos os elementos da classe:"data board", onde os "X" e "O" irão aparecerem
 const winningMessageTextElement = document.querySelector(
   "[data-winning-message-text]"
-);
+);//selecionando a mensagem de vitoria
 const winningMessage = document.querySelector("[data-winning-message]");
-const restartButton = document.querySelector("[data-restart-button]");
+const restartButton = document.querySelector("[data-restart-button]");//selencionando o botão de reiniciar
 
 let isCircleTurn;
 

@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <!-- link do css -->
     <title>Jogo da Velha</title>
   </head>
   <body>
+    <!-- locais (ou celulas) onde os "X" e "O" vão aparecer -->
     <div class="board" data-board>
       <div class="cell" data-cell></div>
       <div class="cell" data-cell></div>
@@ -19,13 +21,14 @@
       <div class="cell" data-cell></div>
       <div class="cell" data-cell></div>
     </div>
-
+       
     <div class="winning-message" data-winning-message>
-      <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+      <p class="winning-message-text" data-winning-message-text>X Venceu!</p> <!-- messagem de vitoria com a frase de um dos vencedores no final do jogo -->
       <button class="winning-message-button" data-restart-button>
         Reiniciar!
-      </button>
+      </button><!--botão de reiniciar -->
     </div>
     <script src="./scripts.js"></script>
+    <!-- link do javaScript -->
   </body>
 </html>
